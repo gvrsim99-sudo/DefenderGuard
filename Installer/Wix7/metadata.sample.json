@@ -1,0 +1,6 @@
+{
+  "Endpoint": "<Artifact Signing account endpoint>",
+  "CodeSigningAccountName": "<Artifact Signing account name>",
+  "CertificateProfileName": "<Certificate profile name>",
+  "CorrelationId": "DefenderGuard-1.0.0"
+}

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DefenderGuard</AssemblyName>
+    <RootNamespace>DemoGuard</RootNamespace>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <InformationalVersion>1.0.1</InformationalVersion>
+    <Product>DefenderGuard</Product>
+    <Company>DefenderGuard</Company>
+    <Description>Локальная панель безопасности и обслуживания Windows с интеграцией Microsoft Defender.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyMetadata Include="DefenderGuard.UpdateManifestUrl" Value="$(DefenderGuardUpdateManifestUrl)" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="8.0.0" />
+    <Compile Remove="tests/**/*.cs" />
+  </ItemGroup>
+</Project>
