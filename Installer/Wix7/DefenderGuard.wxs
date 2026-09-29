@@ -13,8 +13,8 @@
     <DirectoryRef Id="INSTALLFOLDER">
       <Component Id="MainComponent" Guid="{B08BEF16-AB51-4F7D-9B28-2F8E3B2F3D11}">
         <File Id="DefenderGuardExe" Source="$(var.PublishDir)\DefenderGuard.exe" KeyPath="yes" Checksum="yes">
-          <Shortcut Id="StartMenuShortcut" Advertise="yes" Directory="DefenderGuardStartMenuFolder" Name="DefenderGuard" Description="Панель Microsoft Defender" WorkingDirectory="INSTALLFOLDER" />
-          <Shortcut Id="DesktopShortcut" Advertise="yes" Directory="DesktopFolder" Name="DefenderGuard" Description="Панель Microsoft Defender" WorkingDirectory="INSTALLFOLDER" />
+          <Shortcut Id="StartMenuShortcut" Advertise="yes" Directory="DefenderGuardStartMenuFolder" Name="DefenderGuard" Description="Панель Microsoft Defender" WorkingDirectory="INSTALLFOLDER" Icon="DefenderGuardIcon.exe" IconIndex="0" />
+          <Shortcut Id="DesktopShortcut" Advertise="yes" Directory="DesktopFolder" Name="DefenderGuard" Description="Панель Microsoft Defender" WorkingDirectory="INSTALLFOLDER" Icon="DefenderGuardIcon.exe" IconIndex="0" />
         </File>
         <RemoveFolder Id="RemoveStartMenuFolder" Directory="DefenderGuardStartMenuFolder" On="uninstall" />
         <util:RemoveFolderEx Id="RemoveSelfProtectionData" On="uninstall" Property="DEFENDERGUARDSELFDATA" />
@@ -24,8 +24,8 @@
       <ComponentRef Id="MainComponent" />
     </Feature>
     <ui:WixUI Id="WixUI_Minimal" />
-    <Icon Id="DefenderGuardIcon" SourceFile="$(var.PublishDir)\DefenderGuard.exe" />
-    <Property Id="ARPPRODUCTICON" Value="DefenderGuardIcon" />
+    <Icon Id="DefenderGuardIcon.exe" SourceFile="$(var.PublishDir)\DefenderGuard.exe" />
+    <Property Id="ARPPRODUCTICON" Value="DefenderGuardIcon.exe" />
     <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Запустить DefenderGuard" />
     <Property Id="DEFENDERGUARDSELFDATA" Value="%ProgramData%\\DefenderGuardSelfProtection" />
     <CustomAction Id="DisableSelfProtection" FileRef="DefenderGuardExe" ExeCommand="--self-protection-diagnostic disable" Execute="deferred" Impersonate="no" Return="ignore" />
