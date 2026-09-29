@@ -8,10 +8,10 @@
     <Nullable>enable</Nullable>
     <AssemblyName>DefenderGuard</AssemblyName>
     <RootNamespace>DemoGuard</RootNamespace>
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
-    <InformationalVersion>1.0.1</InformationalVersion>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <InformationalVersion>1.0.2</InformationalVersion>
     <Product>DefenderGuard</Product>
     <Company>DefenderGuard</Company>
     <Description>Локальная панель безопасности и обслуживания Windows с интеграцией Microsoft Defender.</Description>
