@@ -3,7 +3,7 @@
     <OutputType>Package</OutputType>
     <InstallerPlatform>x64</InstallerPlatform>
     <AcceptEula>wix7</AcceptEula>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <OutputPath>..\..\..\..\DefenderGuard-installer-wix\</OutputPath>
     <DefineConstants>PublishDir=..\..\..\..\DefenderGuard-release-$(Version);MsiVersion=$(Version).0</DefineConstants>
   </PropertyGroup>
