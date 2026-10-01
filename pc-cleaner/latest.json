@@ -1,0 +1,30 @@
+{
+  "version": "0.3.2",
+  "notes": "PC Cleaner 0.3.2 — постоянный HTTPS update-channel, автоматическая установка обновлений, проверка SHA-256 и безопасный перезапуск.",
+  "url": null,
+  "sha256": "9E9EB45DE4C30DA8509A1508B6C6B0D5C282DDB7238107F2E1FCA9A209A09D00",
+  "size_bytes": 10378752,
+  "chunks": [
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-000.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-001.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-002.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-003.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-004.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-005.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-006.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-007.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-008.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-009.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-010.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-011.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-012.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-013.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-014.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-015.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-016.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-017.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-018.txt",
+    "https://raw.githubusercontent.com/gvrsim99-sudo/DefenderGuard/pc-cleaner-updates/pc-cleaner/0.3.2/chunk-019.txt"
+  ],
+  "release_page": "https://github.com/gvrsim99-sudo/DefenderGuard/tree/pc-cleaner-updates/pc-cleaner/0.3.2"
+}
